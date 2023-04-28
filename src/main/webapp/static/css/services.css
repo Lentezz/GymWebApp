@@ -1,0 +1,287 @@
+.timetable
+{
+	padding-top: 316px;
+	padding-bottom: 100px;
+	padding-left: 30px;
+	overflow: hidden;
+}
+.tt_overlay
+{
+	position: absolute;
+	top: -270px;
+	right: 0;
+	transform-origin: right bottom;
+	width: 130%;
+	height: 270px;
+	background: #420902;
+	transform: rotate(-8deg);
+}
+.timetable .section_title
+{
+	color: #420902;
+}
+.timetable_filtering
+{
+	margin-top: 69px;
+}
+.timetable_filtering ul li
+{
+	position: relative;
+	font-size: 16px;
+	font-weight: 500;
+	color: #0a0100;
+	cursor: pointer;
+	white-space: nowrap;
+	margin-bottom: 30px;
+}
+.timetable_filtering ul li:not(:last-of-type)
+{
+	margin-right: 59px;
+}
+.timetable_filtering ul li.active,
+.timetable_filtering ul li:hover
+{
+	color: #0a0a0a;
+}
+.timetable_filtering ul li.active::after
+{
+	display: block;
+	position: absolute;
+	left: -5px;
+	bottom: -8px;
+	width: calc(100% + 10px);
+	height: 2px;
+	background: #cf0202;
+	content: '';
+}
+.timetable_container
+{
+	margin-top: 40px;
+	margin-bottom: 50px;
+	width: calc(100% + 156px);
+	left: -60px;
+}
+.timetable_container_note
+{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	width: calc(100% + 156px);
+	left: -78px;
+	color: #030000;
+	font-weight: 600;
+}
+.tt_day
+{
+	width: calc((100% - 48px) / 7);
+}
+
+.tt_title
+{
+	width: 100%;
+	height: 46px;
+	background: #030000;
+	text-align: center;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-bottom: 17px;
+}
+.tt_class
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 120px;
+	background: #dbd9d9;
+}
+
+.tt_class:not(:last-child)
+{
+	margin-bottom: 8px;
+}
+.tt_class.empty
+{
+	background: #dbd9d9;
+}
+.tt_class_title
+{
+	font-size: 17px;
+	font-weight: 700;
+	color: #080000;
+	line-height: 0.75;
+}
+.tt_class_instructor
+{
+	font-size: 15px;
+	font-weight: 500;
+	color: #535353;
+	line-height: 0.75;
+	margin-top: 15px;
+}
+.tt_class_time
+{
+	font-size: 16px;
+	font-weight: 550;
+	color: #8c0101;
+	line-height: 0.75;
+	margin-top: 15px;
+}
+/*=====================================================================*//*checkbox-section start from here*//*=============================== ======================================*/
+h3.check-heading {
+	font-family: sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: 700;
+	color: #242424;
+	font-size: 32px;
+}
+
+.checkout-form {
+	width: 100%;
+	float: left;
+	font-family: sans-serif;
+}
+
+.checkout-form .form-field {
+	width: 100%;
+	float: left;
+	margin: 2px 0px;
+	font-family: sans-serif;
+}
+
+.checkout-form .form-field.field-49 {
+	width: 49%;
+}
+
+.checkout-form .form-field.field-55 {
+	width: 55%;
+}
+
+.checkout-form .form-field.field-fr {
+	float: right;
+}
+
+.checkout-form .form-field label {
+	width: 100%;
+	float: left;
+	font-size: 15px;
+	color: #1f1e1e;
+	font-weight: 400;
+	margin-bottom: 0px;
+	padding-top: 14px;
+	font-family: sans-serif;
+}
+
+.checkout-form .form-field .form-input, .checkout-form .form-field .form-select, .checkout-form .form-field .form-msg {
+	width: 100%;
+	float: left;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 14px;
+	font-size: 15px;
+	color: #242323;
+}
+
+.input-marginbtm {
+	margin-bottom: 8px;
+}
+
+.checkout-form .form-field .checkbox_label {
+	width: auto;
+	cursor: pointer;
+}
+
+.checkout-form .form-field .checkbox_label input[type=checkbox], input[type=radio] {
+	margin-left:0;
+	width:40%;
+}
+.product-orderlst {
+	background: #e3e1e1;
+	width: 100%;
+	float: left;
+	padding: 20px 35px 30px;
+	margin: 20px 0px;
+}
+
+.product-orderlst ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.product-orderlst ul li {
+	list-style: none;
+	float: left;
+	width: 100%;
+	font-size: 15px;
+	color: #3d3d3d;
+	padding: 14px 0px;
+}
+
+.product-orderlst ul li .left-txt {
+	width: 45%;
+	float: left;
+}
+
+.product-orderlst ul li .rght-txt {
+	width: 40%;
+	float: right;
+}
+
+.product-orderlst ul li:first-child {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.product-orderlst ul li:last-child {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+.rght-txt-sum{
+	font-weight: 800;
+	font-size: 20px;
+	width: 42%;
+	float: right
+}
+.left-txt-sum{
+	font-weight: 800;
+	font-size: 20px;
+}
+
+.paypal-img img {
+	padding-top: 5px;
+}
+
+.paypal-img {
+	float: left;
+	margin: -13px 10px 10px 0;
+}
+
+.main-h {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.checkout-form .form-field .form-msg {
+	height: 95px;
+}
+
+.paypal-margin {
+	margin: 40px 0px;
+}
+
+.wdt-100 {
+	width: 100%;
+	float: left;
+	padding-bottom: 100px;
+}
