@@ -44,7 +44,7 @@
             <div class="breadcrumb-title"><h6 class="title">Замовити план тренувань</h6></div>
             <ul class="breadcrumb">
                 <li><a href="<c:url value="/home"/>">Дім</a></li>
-                <li> Плани тренувань</li>
+                <li> Пропозиції</li>
             </ul>
         </div>
     </div>

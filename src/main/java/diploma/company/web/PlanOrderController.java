@@ -95,6 +95,6 @@ public class PlanOrderController {
 		//todo: validate payee data i.e. postal code
 		planOrder.setOrdered(true);
 		planOrderService.savePlanOrder(planOrder);
-		return "redirect:https://www.paypal.com/pl/signin";
+		return "redirect:https://www.paypal.com/ua/signin";
 	}
 }

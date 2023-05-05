@@ -60,9 +60,9 @@
                 <td>${class.hour}</td>
                 <td>${class.name}</td>
                 <td>${class.nameOfTrainer}</td>
-                <td><a href="<c:url value="/admin/schedule/edit/${class.id}"/>" class="templatemo-edit-btn" >Редагування</a>
+                <td><a href="<c:url value="/admin/schedule/edit/${class.id}"/>" class="templatemo-edit-btn" >Редагувати</a>
                 <td><a href="<c:url value="/admin/schedule/delete/${class.id}"/>" class="templatemo-edit-btn"
-                       onClick="return confirmSubmit()">Видалення</a>
+                       onClick="return confirmSubmit()">Видалити</a>
                 </td>
             </tr>
             </c:forEach>
@@ -80,7 +80,7 @@
     $(document).ready(function() {
         $('#table').DataTable({
             "language": {
-                "url": "//cdn.datatables.net/plug-ins/1.10.21/i18n/English.json"
+                "url": "//cdn.datatables.net/plug-ins/1.10.21/i18n/Ukrainian.json"
             }
         });
     });

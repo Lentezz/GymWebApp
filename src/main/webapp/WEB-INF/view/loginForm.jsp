@@ -45,7 +45,7 @@
             <div class="breadcrumb-title"><h6 class="title">вхід</h6></div>
             <ul class="breadcrumb">
                 <li><a href="<c:url value="/home"/>">Дім</a></li>
-                <li>Login</li>
+                <li>Вхід</li>
             </ul>
         </div>
     </div>

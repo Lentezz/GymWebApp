@@ -29,7 +29,7 @@
     <div class="header-top d-none d-xl-block">
         <div class="container">
             <div class="header-wrapper">
-                <div class="logo"><a href=""><img src="<c:url value="/static/images/logo/logo.png"/>" alt="logo"></a>
+                <div class="logo"><a href=""><img src="<c:url value="/static/images/logo/logo.jpg"/>" alt="logo"></a>
                 </div>
                 <div class="header-info">
                     <div class="info-item">
@@ -68,26 +68,23 @@
 
                     <li class="menu-item"><a href="" class="menu-item-link">Заняття</a>
                         <ul class="sub-menu">
-                            <li class="menu-item"><a href="<c:out value="/gym/schedule"/>" class="menu-item-link">Розклад занять</a></li>
-                            <li class="menu-item"><a href="" class="menu-item-link">Форми занять</a></li>
+                            <li class="menu-item"><a href="<c:out value="/gym/schedule"/>" class="menu-item-link">Розклад</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item"><a href="" class="menu-item-link">Інструктори</a>
+                    <li class="menu-item"><a href="<c:out value="/trainers"/>" class="menu-item-link">Тренери</a>
                     </li>
                     <li class="menu-item"><a href="" class="menu-item-link">Тренування</a>
                         <ul class="sub-menu">
-                            <li class="menu-item"><a href="" class="menu-item-link">База тренувань</a></li>
                             <li class="menu-item"><a href="<c:out value="/gym/workout/create"/>" class="menu-item-link">Створити власний план</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="menu-item"><a href="<c:out value="/gym/dashboard"/>" class="menu-item-link">Мій спортклуб</a>
+                    <li class="menu-item"><a href="<c:out value="/gym/dashboard"/>" class="menu-item-link">Аккаунт</a>
                         <ul class="sub-menu">
                             <li class="menu-item"><a href="<c:out value="/gym/login"/>" class="menu-item-link">Вхід</a></li>
                             <li class="menu-item"><a href="<c:out value="/gym/register"/>" class="menu-item-link">Реєстрація</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item"><a href="" class="menu-item-link">Контакти</a></li>
                     <li class="menu-item"><a href="<c:out value="/gym/login"/>" class="header-button">ВПЕРЕД</a></li>
                 </ul>
                 <div class="header-button-wrapper d-none d-xl-inline-flex"><a class="header-button" href="<c:out value="/gym/login"/>">ВПЕРЕД</a></div>

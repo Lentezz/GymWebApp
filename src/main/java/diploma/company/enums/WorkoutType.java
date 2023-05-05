@@ -1,9 +1,9 @@
 package diploma.company.enums;
 
 public enum WorkoutType {
-	MASS(3,8),
-	SHAPE(4, 15),
-	STRENGTH(4,5);
+	МАСА(3,8),
+	СХУДНЕННЯ(4, 15),
+	СИЛА(4,5);
 	
 	private int sets;
 	private int reps;

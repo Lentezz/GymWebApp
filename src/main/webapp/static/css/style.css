@@ -941,7 +941,7 @@ template {
 
 /*Header Bottom*/
 .header-bottom {
-    background: #d72323;
+    background: #555;
     -webkit-transition: all ease 0.7s;
     -moz-transition: all ease 0.7s;
     transition: all ease 0.7s;
@@ -955,7 +955,6 @@ template {
 @media (min-width: 1200px) {
     .menu {
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
         width: calc(100% - 397px);
         margin-left: -15px;
@@ -2734,6 +2733,7 @@ template {
         -o-transform: scale(3.5);
     }
 }
+
 
 /* inner ripple */
 @keyframes inner-ripple {
@@ -5031,7 +5031,7 @@ template {
         width: 0;
         height: 0;
         border-right: 45.5px solid #16120f;
-        border-top: 91px solid #d72323;
+        border-top: 91px solid #555;
         border-bottom: 45.5px solid #16120f;
     }
 }

@@ -37,18 +37,12 @@
                     <a href=""><img src="<c:url value="/static/images/logo/logo-tt.PNG"/>" alt="logo"></a>
                 </div>
                 <ul class="menu">
-                    <li class="menu-item"><a href="<c:url value="/home"/>" class="menu-item-link">ДІМ</a></li></li>
+                    <li class="menu-item"><a href="<c:url value="/home"/>" class="menu-item-link">Дім</a></li></li>
                     <li class="menu-item"><a href="<c:url value="/admin/schedule"/>" class="menu-item-link">Розклад</a></li>
                     <li class="menu-item"><a href="<c:url value="/admin/schedule/register"/>" class="menu-item-link">Реєстрація</a></li>
-                    <li class="menu-item"><a href="#0" class="menu-item-link">Instructors</a></li>
-                    <li class="menu-item"><a href="#0" class="menu-item-link">Offer</a></li>
-                    <li class="menu-item"><a href="#0" class="menu-item-link">Workouts</a></li>
-                    <li class="menu-item"><a href="#0" class="menu-item-link">ADMIN</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="<c:url value="/gym/login"/>" class="menu-item-link">Вхід</a></li>
-                            <li class="menu-item"><a href="<c:url value="/gym/register"/>" class="menu-item-link">Реєстрація</a></li>
-                        </ul>
-                    </li>
+                    <li class="menu-item"><a href="<c:url value="/trainers"/>" class="menu-item-link">Тренери</a></li>
+                    <li class="menu-item"><a href="<c:url value="/gym/plans"/>" class="menu-item-link">Пропозиції</a></li>
+                    <li class="menu-item"><a href="#0" class="menu-item-link">АДМІНІСТРАТОР</a></li>
                 </ul>
             </div>
         </div>

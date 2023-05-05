@@ -65,7 +65,7 @@
                     <div class="tt_day_content grid">
                         <!-- Class -->
                         <c:forEach items="${classes}" var="class">
-                            <c:if test="${class.day == 'Monday'}">
+                            <c:if test="${class.day == 'Понеділок'}">
                         <div class="tt_class grid-item">
                             <div class="tt_class_title">${class.name}</div>
                             <div class="tt_class_instructor">${class.nameOfTrainer}</div>
@@ -84,7 +84,7 @@
                     <div class="tt_day_content grid">
                         <!-- Class -->
                         <c:forEach items="${classes}" var="class">
-                            <c:if test="${class.day == 'Tuesday'}">
+                            <c:if test="${class.day == 'Вівторок'}">
                             <div class="tt_class grid-item">
                                 <div class="tt_class_title">${class.name}</div>
                                 <div class="tt_class_instructor">${class.nameOfTrainer}</div>
@@ -103,7 +103,7 @@
                     <div class="tt_day_content grid">
                         <!-- Class -->
                         <c:forEach items="${classes}" var="class">
-                            <c:if test="${class.day == 'Wednesday'}">
+                            <c:if test="${class.day == 'Середа'}">
                             <div class="tt_class grid-item">
                                 <div class="tt_class_title">${class.name}</div>
                                 <div class="tt_class_instructor">${class.nameOfTrainer}</div>
@@ -122,7 +122,7 @@
                     <div class="tt_day_content grid">
                         <!-- Class -->
                         <c:forEach items="${classes}" var="class">
-                            <c:if test="${class.day == 'Thursday'}">
+                            <c:if test="${class.day == 'Четвер'}">
                             <div class="tt_class grid-item">
                                 <div class="tt_class_title">${class.name}</div>
                                 <div class="tt_class_instructor">${class.nameOfTrainer}</div>
@@ -137,11 +137,11 @@
 
                 <!-- Friday -->
                 <div class="tt_day">
-                    <div class="tt_title">Пятниця</div>
+                    <div class="tt_title">П'ятниця</div>
                     <div class="tt_day_content grid">
                         <!-- Class -->
                         <c:forEach items="${classes}" var="class">
-                            <c:if test="${class.day == 'Friday'}">
+                            <c:if test="${class.day == 'П`ятниця'}">
                             <div class="tt_class grid-item">
                                 <div class="tt_class_title">${class.name}</div>
                                 <div class="tt_class_instructor">${class.nameOfTrainer}</div>
@@ -162,7 +162,7 @@
                     <div class="tt_day_content grid">
                         <!-- Class -->
                         <c:forEach items="${classes}" var="class">
-                            <c:if test="${class.day == 'Saturday'}">
+                            <c:if test="${class.day == 'Субота'}">
                             <div class="tt_class grid-item">
                                 <div class="tt_class_title">${class.name}</div>
                                 <div class="tt_class_instructor">${class.nameOfTrainer}</div>
@@ -181,7 +181,7 @@
                     <div class="tt_day_content grid">
                         <!-- Class -->
                         <c:forEach items="${classes}" var="class">
-                            <c:if test="${class.day == 'Sunday'}">
+                            <c:if test="${class.day == 'Неділя'}">
                             <div class="tt_class grid-item">
                                 <div class="tt_class_title">${class.name}</div>
                                 <div class="tt_class_instructor">${class.nameOfTrainer}</div>

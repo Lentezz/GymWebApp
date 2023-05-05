@@ -36,14 +36,14 @@
     <div class="templatemo-content-widget">
         <div class="table-responsive">
             <a href="<c:url value="/admin/schedule/reset"/>">
-                <button type="button" onClick="return confirmReset()" class="btn col-lg-14 package-item">СКИНУТИ</button>
+                <button type="button" onClick="return confirmReset()" class="btn col-lg-14 package-item">ОЧИСТИТИ</button>
             </a>
         </div>
             <table id="table" class="table table-striped table-bordered templatemo-user-table">
                 <thead>
                 <tr>
                     <td class="white-text templatemo-sort-by">Заняття</td>
-                    <td class="white-text templatemo-sort-by">Користувачі</td>
+                    <td class="white-text templatemo-sort-by">Відвідувач</td>
                     <td class="white-text templatemo-sort-by">Номер телефону</td>
                     <td class="white-text templatemo-sort-by">E-mail</td>
                 </tr>
@@ -84,7 +84,7 @@
     $(document).ready(function() {
         $('#table').DataTable({
             "language": {
-                "url": "//cdn.datatables.net/plug-ins/1.10.21/i18n/English.json"
+                "url": "//cdn.datatables.net/plug-ins/1.10.21/i18n/Ukrainian.json"
             }
         });
     });

@@ -32,7 +32,7 @@
     <div class="container">
         <h3 class="title">
             <span class="shape-wrapper">
-                <span class="shape"></span>Мій аккаунтt<span class="shape"></span></span>
+                <span class="shape"></span>Мій аккаунт<span class="shape"></span></span>
         </h3>
     </div>
 </section>
@@ -76,7 +76,7 @@
                                         <form:password path="password" id="password" placeholder="${user.password}"/>
                                         <form:errors path="password" cssClass="error"/></div><br>
                                     <div class="col-lg-4">
-                                        <input type="submit" value="Update" class="m-0"/></div>
+                                        <input type="submit" value="Зберегти" class="m-0"/></div>
                                 </form:form>
                             </div>
                         </div>
