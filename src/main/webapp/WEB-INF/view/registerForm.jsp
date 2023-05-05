@@ -71,7 +71,7 @@
                     <form:password path="password" id="password" placeholder="Password"/>
                     <form:errors path="password" cssClass="error"/></div>
                 <div class="form-group">
-                    <input type="submit" value="Register" class="m-0"/></div>
+                    <input type="submit" value="Зареєструватися" class="m-0"/></div>
                 <div class="form-group m-0">
                     <form:label path="subscribed" class="registration-checkbox d-flex">
                         <form:checkbox path="subscribed" id="subscribed" value="yes"/>

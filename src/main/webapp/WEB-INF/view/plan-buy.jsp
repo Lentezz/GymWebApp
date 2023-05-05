@@ -34,7 +34,7 @@
     <div class="container">
         <h3 class="title">
             <span class="shape-wrapper">
-                <span class="shape"></span>База планів тренувань<span class="shape"></span></span>
+                <span class="shape"></span>купівля плану тренувань<span class="shape"></span></span>
         </h3>
     </div>
 </section>
@@ -46,7 +46,7 @@
             <div class="breadcrumb-title"><h6 class="title">Замовляй онлайн</h6></div>
             <ul class="breadcrumb">
                 <li><a href="<c:url value="/home"/>">Дім</a></li>
-                <li><a href="<c:url value="/gym/plans"/>">План тренувань</a></li>
+                <li><a href="<c:url value="/gym/plans"/>">Пропозиції</a></li>
                 <li>Замовити план</li>
             </ul>
         </div>

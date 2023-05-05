@@ -45,7 +45,7 @@
             <ul class="breadcrumb">
                 <li><a href="<c:url value="/home"/>">Дім</a></li>
                 <li><a href="<c:url value="/gym/dashboard"/>">Мій спортклуб</a></li>
-                <li>Мої тренування</li>
+                <li>Мої плани тренувань</li>
             </ul>
         </div>
     </div>
@@ -70,7 +70,7 @@
                 <ul>
                     <c:forEach var="exercise" items="${workout.exercises}">
                         <li>${exercise.name}</li>
-                        <p><i>Practiced parts: ${exercise.muscleGroup} / equipment needed: ${exercise.equipment}</i></p>
+                        <p><i>Частини тіла, що тренуються: ${exercise.muscleGroup} / Необхідне обладнання: ${exercise.equipment}</i></p>
                     </c:forEach>
                 </ul>
             </div>

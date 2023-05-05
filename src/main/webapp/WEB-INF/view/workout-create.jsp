@@ -66,13 +66,13 @@
                                 <div class="form-group"> 2. Ціль тренувань</div>
                                 <div class="p-t-15"><b></b>
                                     <label class="radio-container m-r-55">Набір ваги
-                                        <form:radiobutton path="type" name="type" value="MASS"/><span class="checkmark"></span>
+                                        <form:radiobutton path="type" name="type" value="МАСА"/><span class="checkmark"></span>
                                     </label>
                                     <label class="radio-container">Схуднення
-                                        <form:radiobutton path="type" name="type" value="SHAPE"/><span class="checkmark"></span>
+                                        <form:radiobutton path="type" name="type" value="СХУДНЕННЯ"/><span class="checkmark"></span>
                                     </label>
                                     <label class="radio-container m-r-55">Сила
-                                        <form:radiobutton path="type" name="type" value="STRENGTH"/><span class="checkmark"></span>
+                                        <form:radiobutton path="type" name="type" value="СИЛА"/><span class="checkmark"></span>
                                     </label>
                                 </div><br>
 
@@ -99,7 +99,7 @@
                                 </div><br></b>
                             </div>
                             <div class="col-lg-6">
-                                <input type="submit" class="register-btn" value="Generate training"/>
+                                <input type="submit" class="register-btn" value="Згенерувати план"/>
                                 <div class="form-row p-t-10">
                                 </div>
                             </div>

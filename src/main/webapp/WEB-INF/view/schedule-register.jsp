@@ -78,15 +78,14 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <label for="phone">Номер телефону *</label>
-                                    <input type="tel" id="phone" name="phone" placeholder="Phone number"
-                                           pattern="[0-9]{9,13}" required/>
+                                    <input type="tel" id="phone" name="phone" placeholder="Мобільний">
                                 </div>
                                 <div class="col-lg-6">
-                                    <input type="submit" class="register-btn" value="Enroll"/>
+                                    <input type="submit" class="register-btn" value="Записатись"/>
                                 </div>
                                 <div class="col-lg-6">
                                     <input type="button" class="register-btn-2" onclick="location.href='/gym/schedule';"
-                                           value="Back"/>
+                                           value="Назад"/>
                                 </div>
                             </div>
                         </form:form>

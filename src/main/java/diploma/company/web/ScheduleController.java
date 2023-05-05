@@ -52,14 +52,15 @@ public class ScheduleController {
 	@PostMapping("/gym/schedule/{id}")
 	public String registerToClass(@PathVariable Long id, @ModelAttribute ClassRegister classRegister,
 	                              @RequestParam("email") String email,
-	                              @RequestParam ("phone") Integer phone, BindingResult result, Principal principal) {
+	                              @RequestParam ("phone") String phone, BindingResult result, Principal principal) {
 		if (result.hasErrors()) {
 			return "schedule-register";
 		}
 		if (principal==null) {
 			return "redirect:/gym/login";
 		}
-		classService.saveClassRegister(id,principal.getName(), email, phone);
+		Integer corrected = Integer.valueOf(phone.substring(3));
+		classService.saveClassRegister(id,principal.getName(), email, corrected);
 		return "redirect:/home";
 	}
 }

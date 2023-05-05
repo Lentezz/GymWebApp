@@ -43,11 +43,11 @@
 <div class="breadcrumb-section">
     <div class="container">
         <div class="breadcrumb-wrapper">
-            <div class="breadcrumb-title"><h6 class="title">Онлайн оплатаt</h6></div>
+            <div class="breadcrumb-title"><h6 class="title">Онлайн оплата</h6></div>
             <ul class="breadcrumb">
                 <li><a href="<c:url value="/home"/>">Дім</a></li>
-                <li><a href="<c:url value="/gym/plans"/>">Плани тренувань</a></li>
-                <li> Оплатити план</li>
+                <li><a href="<c:url value="/gym/plans"/>">Пропозиції</a></li>
+                <li> Оплата</li>
             </ul>
         </div>
     </div>
@@ -77,7 +77,7 @@
                                            placeholder="__-___" pattern="^[0-9]{2}-[0-9]{3}$" required></div>
                                 <div class="form-field"><label>E-Mail *</label>
                                     <input name="email" type="text" class="form-input"
-                                           pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required></div>
+                                            required></div>
                             </div>
                         </div>
                     </div>
@@ -90,9 +90,9 @@
                             <li><span class="left-txt">План тренувань:</span>
                                 <span class="rght-txt">&nbsp &nbsp ${plan.price}0 ₴.</span></li>
                             <li><span class="left-txt">План харчування</span>
-                                <span class="rght-txt">&nbsp &nbsp ${planOrder.nutritionPrice}0 $.</span></li>
+                                <span class="rght-txt">&nbsp &nbsp ${planOrder.nutritionPrice}0 ₴.</span></li>
                             <li><span class="left-txt-sum"><strong>Разом</strong></span>
-                                <span class="rght-txt-sum"><strong>&nbsp &nbsp ${plan.price + planOrder.nutritionPrice}0 $.</strong></span></li>
+                                <span class="rght-txt-sum"><strong>&nbsp &nbsp ${plan.price + planOrder.nutritionPrice}0 ₴.</strong></span></li>
                         </ul>
                     </div>
                     <div class="checkout-form">
@@ -103,8 +103,8 @@
                                 <span class="paypal-img">
                                     <img src="${pageContext.request.contextPath}/static/images/feature/paypal-img.png" alt=""></span>
                             </div>
-                            <div class="botton-secound">
-                                <input type="submit" value="Pay">
+                            <div class="botton-secound" >
+                                <input type="submit" value="Сплатити">
                                 <div class="col-lg-8"><p></p></div>
                             </div>
                         </label>
